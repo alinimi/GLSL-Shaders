@@ -13,5 +13,5 @@ void main()
 	if(abs(dot(nobs,cam)) < epsilon){
 		gl_FragColor = cl;
 	}
-	else gl_FragColor = gl_Color*light*nobs.z;
+	else gl_FragColor = gl_Color*nobs.z;
 }
